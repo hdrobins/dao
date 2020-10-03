@@ -1,5 +1,19 @@
 --El presente script tiene los scripts de los objetos de la base de datos
 --Crear las tablas
+
+DROP USER HCA CASCADE;
+
+CREATE USER HCA IDENTIFIED BY "hca" account UNLOCK;
+
+GRANT CREATE DATABASE LINK,
+    CREATE DIMENSION,
+    CREATE MATERIALIZED VIEW,
+    CREATE PROCEDURE,
+    CREATE SEQUENCE,
+    CREATE SESSION,
+    CREATE TABLE
+TO hca;
+
 create table hca.HOSPITALS 
 (HOS_ID NUMBER(10) not null,
 HOS_NAME VARCHAR(40) not null);
