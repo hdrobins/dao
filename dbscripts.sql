@@ -89,10 +89,10 @@ insert into hca.hospitals (hos_id, hos_name) values(1,'Clínica Universitaria Re
 
 --Insert en tabla de Sedes
 insert into hca.headquarters (heq_id, heq_name, heq_address, heq_province, heq_country, hos_id) 
-VALUES(1, 'Sede Central', 'Oncativo Nº1248 Bº General Paz', 'Córdoba', 'Argentina', 1);
+VALUES(1, 'Sede Central', 'Oncativo N1248 B General Paz', 'Cordoba', 'Argentina', 1);
 
 insert into hca.headquarters (heq_id, heq_name, heq_address, heq_province, heq_country, hos_id) 
-VALUES(2, 'Consultorios Externos Jacinto Ríos', 'Jacinto Ríos Nº554 Bº General Paz', 'Córdoba', 'Argentina', 1);
+VALUES(2, 'Consultorios Externos Jacinto Ríos', 'Jacinto Ríos N554 B General Paz', 'Cordoba', 'Argentina', 1);
 
 
 --Insert en tablas de Obras Sociales
@@ -153,7 +153,7 @@ commit;
 
 --Insertar en la tabla de médicos
 insert into hca.doctors (doc_id, doc_last_name, doc_first_name, msp_id) 
-VALUES(1, 'Chamale', 'Oscar Elías', 1);
+VALUES(1, 'Chamale', 'Oscar Elias', 1);
 
 insert into hca.doctors (doc_id, doc_last_name, doc_first_name, msp_id) 
 VALUES(2, 'Lozano', 'Alejandro', 2);
@@ -162,7 +162,7 @@ insert into hca.doctors (doc_id, doc_last_name, doc_first_name, msp_id)
 VALUES(3, 'Berardi', 'Yanina Viviana', 2);
 
 insert into hca.doctors (doc_id, doc_last_name, doc_first_name, msp_id) 
-VALUES(4, 'Bertolino', 'María Lorena', 3);
+VALUES(4, 'Bertolino', 'Maria Lorena', 3);
 
 insert into hca.doctors (doc_id, doc_last_name, doc_first_name, msp_id) 
 VALUES(5, 'Consigli', 'Nicolas Ernesto', 4);
@@ -171,7 +171,7 @@ insert into hca.doctors (doc_id, doc_last_name, doc_first_name, msp_id)
 VALUES(6, 'Antonelli', 'Romina', 5);
 
 insert into hca.doctors (doc_id, doc_last_name, doc_first_name, msp_id) 
-VALUES(7, 'Bartolacci', 'Inés', 6);
+VALUES(7, 'Bartolacci', 'Ines', 6);
 
 insert into hca.doctors (doc_id, doc_last_name, doc_first_name, msp_id) 
 VALUES(8, 'Majul', 'Enrique', 6);
