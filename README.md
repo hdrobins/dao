@@ -24,6 +24,10 @@ Data Access Objects for health care
 #### For Oracle Databases
 * pip install cx_Oracle
 
+#### For Oracle Databases Autonomous
+https://docs.oracle.com/en-us/iaas/autonomous-database-serverless/doc/connecting-python-tls.html
+* pip install oracledb
+
 #### For PostgreSQL
 * [Install PostgreSQL Libs](https://springmerchant.com/bigcommerce/psycopg2-virtualenv-install-pg_config-executable-not-found/)
 * sudo apt-get install libpq-dev python-dev
