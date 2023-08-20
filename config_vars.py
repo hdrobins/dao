@@ -1,7 +1,7 @@
 #BBDD_CONNECTION = "postgresql://admin:ueDrxqVQwtQeBGJ@192.168.88.247/rasa"  
 
 
-BBDD_CONNECTION = "oracle+cx_oracle://hca:2712adaD.oracle@drobinsundec_medium/?encoding=UTF-8&nencoding=UTF-8"
+BBDD_CONNECTION = "oracle+cx_oracle://hca:{password}@drobinsundec_medium/?encoding=UTF-8&nencoding=UTF-8"
 
 import cx_Oracle
 
