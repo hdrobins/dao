@@ -7,7 +7,6 @@ sys.path.append(dirname)
 sys.path.append(dirname+"/db_models/")
 from sqlalchemy import create_engine, select, join, MetaData, Table
 
-
 from db_models.headquarters import Headquarters
 from db_models.specialities import Specialities
 from db_models.healthrelations import HealthRelations
