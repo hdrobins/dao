@@ -19,13 +19,15 @@ Data Access Objects for health care
 * pip install notebook 
 
 #### Install Libs
-* pip install sqlalchemy
+* pip install sqlalchemy==1.4
 
 #### For Oracle Databases
-* pip install cx_Oracle
+* pip install cx_Oracle==8.3
 
-#### For Oracle Databases Autonomous
+#### For Oracle Databases Autonomous (instant client)
 https://docs.oracle.com/en-us/iaas/autonomous-database-serverless/doc/connecting-python-tls.html
+https://csiandal.medium.com/install-oracle-instant-client-on-ubuntu-4ffc8fdfda08
+
 * pip install oracledb
 
 #### For PostgreSQL
