@@ -1,7 +1,8 @@
-## Universidad Nacional de Chilecito
+# Universidad Nacional de Chilecito
 
-# Equipo de Trabajo
+## Equipo de Trabajo
 Jonatan Alvarez jonatan.alvarez@kunan.com.ar
+
 Daniel Robins daniel.robins@kunan.com.ar
 
 # dao
