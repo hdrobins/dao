@@ -1,3 +1,9 @@
+## Universidad Nacional de Chilecito
+
+# Equipo de Trabajo
+Jonatan Alvarez jonatan.alvarez@kunan.com.ar
+Daniel Robins daniel.robins@kunan.com.ar
+
 # dao
 Data Access Objects for health care
 
