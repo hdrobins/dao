@@ -26,7 +26,7 @@ Data Access Objects for health care
 * pip install notebook 
 
 #### Install pandas
-* pip install notebook 
+* pip install pandas
 
 #### Install Libs
 * pip install sqlalchemy==1.4
