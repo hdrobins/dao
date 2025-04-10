@@ -36,6 +36,7 @@ sudo apt install docker.io
 sudo docker run -d --name oracle-xe -p 1521:1521 -p 8080:8080 -e ORACLE_PASSWORD=admin gvenzl/oracle-xe
 
 sudo docker start oracle-xe
+
 sudo docker ps
 
 * pip install oracledb
