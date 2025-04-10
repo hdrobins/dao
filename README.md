@@ -10,7 +10,7 @@ Data Access Objects for health care
 
 #### Before you begin, you’ll need:
 * IDE or Text editor 
-* Python 3.6 or 3.7
+* Python 3.6 or 3.7 or 3.8
 * pip install --upgrade pip
 
 #### Create database schema
@@ -31,9 +31,12 @@ Data Access Objects for health care
 #### For Oracle Databases
 * pip install cx_Oracle==8.3
 
-#### For Oracle Databases Autonomous (instant client)
-https://docs.oracle.com/en-us/iaas/autonomous-database-serverless/doc/connecting-python-tls.html
-https://csiandal.medium.com/install-oracle-instant-client-on-ubuntu-4ffc8fdfda08
+#### For Oracle Database
+sudo apt install docker.io
+sudo docker run -d --name oracle-xe -p 1521:1521 -p 8080:8080 -e ORACLE_PASSWORD=admin gvenzl/oracle-xe
+
+sudo docker start oracle-xe
+sudo docker ps
 
 * pip install oracledb
 
@@ -42,5 +45,3 @@ https://csiandal.medium.com/install-oracle-instant-client-on-ubuntu-4ffc8fdfda08
 * sudo apt-get install libpq-dev python-dev
 * sudo apt-get update
 * pip install psycopg2
-
-
