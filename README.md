@@ -17,7 +17,7 @@ Data Access Objects for health care
 * [dbscripts](dbscripts.sql)
 
 #### Create the virtual environment
-* python3 -m venv ./venv
+* python -m venv ./venv
 
 #### Activate the virtual environment
 * source ./venv/bin/activate
@@ -25,21 +25,24 @@ Data Access Objects for health care
 #### Install jupyter
 * pip install notebook 
 
+#### Install pandas
+* pip install pandas
+
 #### Install Libs
 * pip install sqlalchemy==1.4
 
 #### For Oracle Databases
 * pip install cx_Oracle==8.3
 
-#### For Oracle Database
+#### For install Oracle Database with docker
+
 sudo apt install docker.io
+
 sudo docker run -d --name oracle-xe -p 1521:1521 -p 8080:8080 -e ORACLE_PASSWORD=admin gvenzl/oracle-xe
 
 sudo docker start oracle-xe
 
 sudo docker ps
-
-* pip install oracledb
 
 #### For PostgreSQL
 * [Install PostgreSQL Libs](https://springmerchant.com/bigcommerce/psycopg2-virtualenv-install-pg_config-executable-not-found/)
