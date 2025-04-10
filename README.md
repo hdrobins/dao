@@ -17,12 +17,15 @@ Data Access Objects for health care
 * [dbscripts](dbscripts.sql)
 
 #### Create the virtual environment
-* python3 -m venv ./venv
+* python -m venv ./venv
 
 #### Activate the virtual environment
 * source ./venv/bin/activate
 
 #### Install jupyter
+* pip install notebook 
+
+#### Install pandas
 * pip install notebook 
 
 #### Install Libs
